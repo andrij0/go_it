@@ -6,14 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- header -->
     <head>
-        <ul>
-            <li></li>
-        </ul>
+        <div>
+            <nav>
+                <ul>
+                    <li> <a style=" text-decoration: none; href="index.html">WebStudio</a> </li>
+                    <li><a href="">Студия</a></li>
+                    <li><a href="">Портфолио</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul>
+                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
     </head>
     <!-- /header -->
 
@@ -22,9 +36,7 @@
         <!-- Block 1 -->
         <div>
             <h1>Эффективные решения для вашего бизнеса</h1>
-            <button>
-                Заказать услугу
-            </button>
+            <input type="button" value="Заказать услугу">
         </div>
         <!-- block1 -->
 
@@ -54,9 +66,9 @@
             <div>
             <h2>Чем мы занимаемся</h2>
                 <div>
-                    <div><img src="image/img.png" alt="photo"></div>
-                    <div><img src="image/box 2.png" alt="photo2"></div>
-                    <div><img src="image/box 3.png" alt="photo3"></div>
+                    <img src="image/img.png" alt="photo" width="370">
+                    <img src="image/box 2.png" alt="photo2" width="370">
+                    <img src="image/box 3.png" alt="photo3" width="370">
                 </div>
             </div>
         </div>
@@ -67,22 +79,22 @@
             <h2>Наша команда</h2>
             <div>
                 <div>
-                    <img src="image/img.jpg" alt="Игорь Демьяненко фото">
+                    <img src="image/img.jpg" alt="Игорь Демьяненко фото" width="260">
                     <h3>Игорь Демьяненко</h3>
                     <p>Product Designer</p>
                 </div>
                 <div>
-                    <img src="image/img2.jpg" alt="Ольга Репина фото">
+                    <img src="image/img2.jpg" alt="Ольга Репина фото" width="260">
                     <h3>Ольга Репина</h3>
                     <p>Frontend Developer</p>
                 </div>
                 <div>
-                    <img src="image/img3.jpg" alt="Игорь Демьяненко фото">
+                    <img src="image/img3.jpg" alt="Игорь Демьяненко фото" width="260">
                     <h3>Николай Тарасов</h3>
                     <p>Marketing</p>
                 </div>
                 <div>
-                    <img src="image/img4.jpg" alt="Михаил Ермаков фото">
+                    <img src="image/img4.jpg" alt="Михаил Ермаков фото" width="260">
                     <h3>Михаил Ермаков</h3>
                     <p>UI Designer</p>
                 </div>
@@ -94,10 +106,11 @@
 
     <!-- Footer -->
     <footer id="contacts">
-        <a href="index.html"><img src="image/WebStudio_color.svg" alt="WebStudio"></a>
+        <a href="index.html"> <span style="color: #2196F3 ;">Web</span>Studio </a>
         <div>
             <address>г. Киев, пр-т Леси Украинки, 26</address>
             <a href="mailto:info@example.com">info@example.com</a>
+            <br>
             <a href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
         </div>
     </footer>
